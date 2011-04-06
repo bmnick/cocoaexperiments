@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5B47271134AAEE000BEBF80 /* TextFieldManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B4726F134AAEDF00BEBF80 /* TextFieldManager.m */; };
+		B5B47272134AAEE000BEBF80 /* TextFieldManager.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5B47270134AAEDF00BEBF80 /* TextFieldManager.xib */; };
 		B5D7C35C134AAC3E00D413E4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D7C35B134AAC3E00D413E4 /* Cocoa.framework */; };
 		B5D7C366134AAC3E00D413E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5D7C364134AAC3E00D413E4 /* InfoPlist.strings */; };
 		B5D7C369134AAC3E00D413E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D7C368134AAC3E00D413E4 /* main.m */; };
@@ -30,23 +32,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5B4726E134AAEDF00BEBF80 /* TextFieldManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldManager.h; sourceTree = "<group>"; };
+		B5B4726F134AAEDF00BEBF80 /* TextFieldManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldManager.m; sourceTree = "<group>"; };
+		B5B47270134AAEDF00BEBF80 /* TextFieldManager.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldManager.xib; sourceTree = "<group>"; };
 		B5D7C357134AAC3E00D413E4 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D7C35B134AAC3E00D413E4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B5D7C35E134AAC3E00D413E4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		B5D7C35F134AAC3E00D413E4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		B5D7C360134AAC3E00D413E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B5D7C363134AAC3E00D413E4 /* TestApp-Info.plist */ = {isa = PBXFileReference; path = "TestApp-Info.plist"; sourceTree = "<group>"; };
+		B5D7C363134AAC3E00D413E4 /* TestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestApp-Info.plist"; sourceTree = "<group>"; };
 		B5D7C365134AAC3E00D413E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B5D7C367134AAC3E00D413E4 /* TestApp-Prefix.pch */ = {isa = PBXFileReference; path = "TestApp-Prefix.pch"; sourceTree = "<group>"; };
+		B5D7C367134AAC3E00D413E4 /* TestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestApp-Prefix.pch"; sourceTree = "<group>"; };
 		B5D7C368134AAC3E00D413E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5D7C36B134AAC3E00D413E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		B5D7C36D134AAC3E00D413E4 /* TestAppAppDelegate.h */ = {isa = PBXFileReference; path = TestAppAppDelegate.h; sourceTree = "<group>"; };
+		B5D7C36D134AAC3E00D413E4 /* TestAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAppAppDelegate.h; sourceTree = "<group>"; };
 		B5D7C36E134AAC3F00D413E4 /* TestAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppAppDelegate.m; sourceTree = "<group>"; };
 		B5D7C371134AAC3F00D413E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B5D7C378134AAC3F00D413E4 /* TestAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5D7C37E134AAC3F00D413E4 /* TestAppTests-Info.plist */ = {isa = PBXFileReference; path = "TestAppTests-Info.plist"; sourceTree = "<group>"; };
+		B5D7C37E134AAC3F00D413E4 /* TestAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestAppTests-Info.plist"; sourceTree = "<group>"; };
 		B5D7C380134AAC3F00D413E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B5D7C382134AAC3F00D413E4 /* TestAppTests-Prefix.pch */ = {isa = PBXFileReference; path = "TestAppTests-Prefix.pch"; sourceTree = "<group>"; };
+		B5D7C382134AAC3F00D413E4 /* TestAppTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestAppTests-Prefix.pch"; sourceTree = "<group>"; };
 		B5D7C383134AAC3F00D413E4 /* TestAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAppTests.h; sourceTree = "<group>"; };
 		B5D7C385134AAC3F00D413E4 /* TestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +118,9 @@
 			isa = PBXGroup;
 			children = (
 				B5D7C36D134AAC3E00D413E4 /* TestAppAppDelegate.h */,
+				B5B4726E134AAEDF00BEBF80 /* TextFieldManager.h */,
+				B5B4726F134AAEDF00BEBF80 /* TextFieldManager.m */,
+				B5B47270134AAEDF00BEBF80 /* TextFieldManager.xib */,
 				B5D7C36E134AAC3F00D413E4 /* TestAppAppDelegate.m */,
 				B5D7C370134AAC3F00D413E4 /* MainMenu.xib */,
 				B5D7C362134AAC3E00D413E4 /* Supporting Files */,
@@ -222,6 +230,7 @@
 				B5D7C366134AAC3E00D413E4 /* InfoPlist.strings in Resources */,
 				B5D7C36C134AAC3E00D413E4 /* Credits.rtf in Resources */,
 				B5D7C372134AAC3F00D413E4 /* MainMenu.xib in Resources */,
+				B5B47272134AAEE000BEBF80 /* TextFieldManager.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +268,7 @@
 			files = (
 				B5D7C369134AAC3E00D413E4 /* main.m in Sources */,
 				B5D7C36F134AAC3F00D413E4 /* TestAppAppDelegate.m in Sources */,
+				B5B47271134AAEE000BEBF80 /* TextFieldManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +452,7 @@
 				B5D7C38B134AAC3F00D413E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5D7C38C134AAC3F00D413E4 /* Build configuration list for PBXNativeTarget "TestAppTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +461,7 @@
 				B5D7C38E134AAC3F00D413E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

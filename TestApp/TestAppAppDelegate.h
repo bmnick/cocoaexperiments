@@ -7,10 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "TextFieldManager.h"
 
 @interface TestAppAppDelegate : NSObject <NSApplicationDelegate> {
 @private
     NSWindow *window;
+    TextFieldManager * tfm;
 }
 
 @property (assign) IBOutlet NSWindow *window;

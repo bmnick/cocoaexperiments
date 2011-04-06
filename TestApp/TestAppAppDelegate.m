@@ -14,7 +14,9 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    tfm = [[TextFieldManager alloc] init];
+    
+    [self.window setContentView:tfm.view];
 }
 
 @end
